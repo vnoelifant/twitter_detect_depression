@@ -2,11 +2,21 @@
 
 ## Overview
 
-My final project for a class at Northwestern (Optimization for Machine Learning and Deep Learning) involved pursing a machine learning curiosity.  I decided to research further on text sentiment analysis, particularly learning about the problem in the prediction of mental disorders in social media. While research has shown that throughout the decades, rates of diagnosing mental illness have improved, many cases remain undetected. Further, I have recently been interested in utilizing machine learning/deep learning tools to address this problem and propose technological solutions to try to ameliorate the issue. In the recent age of technology, social media is a popular outlet for people to express their emotions. Moreover, symptoms of mental disorders have shown to be observable through the text in these outlets. Prior studies have indicated that individuals with mental illnesses show deviations in normal language.   
+My final project for a class at Northwestern (Optimization for Machine Learning and Deep Learning) involved pursing a machine learning curiosity.  I decided to research further on text sentiment analysis, particularly learning about the problem in the prediction of mental disorders in social media. 
 
-Further, I became interested in researching how to analyze, build, and optimize  machine learning/deep learning models that would predict mental disorders in social media. The research was very involved as I am new to the field of NLP. I then determined the best learning tool was to utilize a project that detects politcal sentiment shown [here](https://github.com/RonKG/Machine-Learning-Projects-2/tree/master/3.%20NLP_twitter_sentiment_analysis) and modified it to focus on my problem, which is identify the words/phrases that indicate a mental disorder. The result is shown [here](https://github.com/vnoelifant/twitter_detect_depression/blob/master/Twitter_Mental_Disorder_Detection.ipynb). 
+## Motivation
+While research has shown that throughout the decades, rates of diagnosing mental illness have improved, many cases remain undetected.  In the recent age of technology, social media is a popular outlet for people to express their emotions. Moreover, symptoms of mental disorders have shown to be observable through the text in these outlets. Prior studies have indicated that individuals with mental illnesses show deviations in normal language.   Further, I have recently been interested in researching how to analyze, build, and optimize  machine learning/deep learning models that would predict mental disorders in social media and propose technological solutions to try to ameliorate the issue.
 
-## Conclusions¶
+## Methodology: 
+I determined the best learning tool into the introduction of NLP and sentiment analysis was to utilize a project that detects politcal sentiment shown [here](https://github.com/RonKG/Machine-Learning-Projects-2/tree/master/3.%20NLP_twitter_sentiment_analysis) and modified it to focus on my problem, which is identify the words/phrases that indicate a mental disorder. The result is shown [here](https://github.com/vnoelifant/twitter_detect_depression/blob/master/Twitter_Mental_Disorder_Detection.ipynb)
+
+.In summary the following steps were implemented:
+
+  * Utilized Python’s natural language processing module (NLTK) to clean tweets with a focus on textual indicators of depression
+  * Extracted features from tweets using Bag of Words, TF-IDF and word2vec methods
+  * Ran features and Naive Bayes machine learning classifier through SciKit Learn Pipeline module. 
+
+## Conclusions
 We can see in the results that we have while not a very high accuracy score, the score is not bad, and it's convincing to say we have a good, working algorithm for detecting whether tweets are prone to having a mental disorder. The prediction results are a bit mixed, but at least we do see expected results. However improvements should be explored in the future to enhance the predictions. With the researched machine learning tools, and available models, I believe this project is a great example to build upon further.
 
 ## Next steps:
